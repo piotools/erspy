@@ -1,0 +1,21 @@
+{
+  "langrev": "1",
+  "warnings": ["no-unused"],
+  "dependency-search-paths": ["deps"],
+  "dependencies": ["nt_ext", "msvc_ext", "roblox", "sokol", "imgui"],
+  "linked-libraries": ["onecore", "dwmapi"],
+  "linker-search-paths": ["libs"],
+  "authors": ["piomanly"],
+  "version": "1.0.0",
+  "sources": ["src/**"],
+  "build-dir": "build",
+  "output": "bin",
+  "targets": {
+    "erspy": {
+      "type": "executable",
+      "target": "windows-x64"
+    }
+  },
+  "cpu": "generic",
+  "opt": "O3" // O0 for debug (faster compile), O3 for release
+}

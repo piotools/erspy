@@ -1,0 +1,9 @@
+{
+  "provides": "sokol",
+  "targets": {
+    "windows-x64": {
+      "cflags-override": "-DIMPL -DSOKOL_D3D11",
+      "linked-libraries": ["sokol"]
+    }
+  }
+}

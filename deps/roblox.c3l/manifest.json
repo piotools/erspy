@@ -1,0 +1,11 @@
+{
+  "provides": "roblox",
+  "sources": ["src/**"],
+  "targets": {
+    "windows-x64": {
+      "link-args": [],
+      "dependencies": ["nt_ext"],
+      "linked-libraries": []
+    }
+  }
+}

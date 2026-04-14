@@ -1,0 +1,11 @@
+{
+  "provides": "nt_ext",
+  "sources": ["src/**"],
+  "targets": {
+    "windows-x64": {
+      "link-args": [],
+      "dependencies": [],
+      "linked-libraries": []
+    }
+  }
+}
